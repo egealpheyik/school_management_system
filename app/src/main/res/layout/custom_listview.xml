@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp">
+
+    <!-- Course ID -->
+    <TextView
+        android:id="@+id/CourseId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Course ID"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <!-- Course Name -->
+    <TextView
+        android:id="@+id/CourseName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/CourseId"
+        android:layout_marginTop="8dp"
+        android:text="Course Name"
+        android:textSize="16sp" />
+
+    <!-- Course Date -->
+    <TextView
+        android:id="@+id/CourseDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/CourseName"
+        android:layout_marginTop="8dp"
+        android:text="Course Date"
+        android:textSize="16sp" />
+
+    <!-- Edit Button -->
+    <Button
+        android:id="@+id/buttonEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@id/CourseId"
+        android:text="Edit" />
+
+    <!-- Delete Button -->
+    <Button
+        android:id="@+id/buttonDelete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@id/buttonEdit"
+        android:text="Delete"
+        android:layout_marginTop="8dp" />
+
+</RelativeLayout>
